@@ -1,0 +1,10 @@
+{
+"jira_account_id": "dev",
+"project_id": 2,
+"sender_id": "sim",
+"assign_ids": ["sahil", "kim"],
+"issue_id": 322,
+"title": "A Bug",
+"description": "The border on the login button does not support the active state",
+"extra_data": {"priority": "High", "release": "v1.4.1"}
+}

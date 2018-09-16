@@ -1,0 +1,23 @@
+Welcome To BeanWare!!
+
+!!!!PLEASE GO THROUGH THE 'readme.txt' FILE FOR INITIALISATION OF BEANWARE!!!
+
+Go to http://127.0.0.1:8000/ to access BeanWare.
+
+On the home page you will find 'Login' and 'Register' options on the top right
+side of the page. The email id you provide for Registration will be used for Login.
+Email and Username should be unique.
+
+!!!!PLEASE LOGIN AS SUPERUSER TO CREATE EVENTS IN THE SYSTEM!!!! EXAMPLE EVENTS
+ARE PROVIDED IN THE 'slack_input_example' and 'jira_input_example' FILES.
+
+
+After registration, you will be taken to your home page where you will be able
+to see the events logged on your name. Upon arrival of new events a button saying
+"New Events! Reload!" will get displayed on top of the page. Please click on it
+or refresh the page to see the new events.
+
+You can mark an event as read by clicking on the button "Mark as Read" next to
+the event.
+
+To view the details of an event, click on the title of the event.

@@ -30,3 +30,5 @@ On Linux :-
 	python manage.py runserver
 
 10. Server will start at http://127.0.0.1:8000/. Go to the link to access the application
+
+11. GO THROUGH THE 'documentation.txt' FOR HELP.

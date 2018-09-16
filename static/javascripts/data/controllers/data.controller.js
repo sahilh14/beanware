@@ -27,7 +27,7 @@
       get_data();
 
     }
-    
+
     $scope.get_detail = function (doc) {
       $scope.detail = [];
       $scope.document_detail = JSON.parse(JSON.stringify( doc ));
@@ -95,7 +95,7 @@
           $scope.data_length = result.data.length;
           $scope.result = result.data;
           $scope.stop();
-          promise = $interval(watch, 60000);
+          promise = $interval(watch, 120000);
       });
     }
 

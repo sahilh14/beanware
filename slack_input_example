@@ -1,0 +1,8 @@
+{
+"slack_account_id": "beanware",
+"slack_app_id": 12345,
+"sender_id": "tam",
+"mention_ids": ["root"],
+"channel_id": "bland++",
+"full_text": "Meh++!!!"
+}
