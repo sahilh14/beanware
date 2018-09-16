@@ -1,0 +1,43 @@
+<div>
+  <div ng-hide="authenticated">
+    <h2>Login Required</h2>
+  </div>
+  <div ng-show="authenticated">
+    <div class="" ng-show="new_events">
+      <button type="button" name="button" ng-click="reload()">New events! Reload!</button>
+    </div>
+    <h2>Events</h2>
+    <div class="" ng-show="showdetail">
+      <div class="" style="overflow: hidden;">
+        <h4 style="float: left;">Event Details</h4>
+        <button style="float: right; margin-right: 1650px" ng-click="showdetail = false">Close</button>
+      </div>
+      <table style="width:100%">
+        <tr ng-repeat="i in detail">
+          <td>{{i}}</td>
+          <td>{{document_detail[i]}}</td>
+        </tr>
+      </table>
+
+    </div>
+    <table style="width:100%">
+      <tr>
+        <br>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Sender</th>
+        <th>Type</th>
+        <th></th>
+      </tr>
+      <tr ng-repeat="doc in result">
+        <td><a ng-click="get_detail(doc)" href="">{{doc.title | capitalize}}</a></td>
+        <td>{{doc.desc | capitalize}}</td>
+        <td>{{doc.sender_id | capitalize}}</td>
+        <td>{{doc.type | capitalize}}</td>
+        <td ng-if="!doc.read_status">
+          <button type="button" name="button" ng-click="markedRead(doc); hidebutton=true" ng-show="!hidebutton">Mark as read</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

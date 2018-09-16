@@ -1,0 +1,56 @@
+<div>
+  <div ng-hide="authenticated">
+    <h2>Login Required</h2>
+  </div>
+  <div ng-show="authenticated">
+    <h2>Admin Page</h2>
+    <h4>Enter slack event data</h4>
+    <p>No validation. Enter carefully!</p>
+    <div style="overflow: hidden;">
+      <div style="float: left;">
+        <textarea rows="15" cols="90" ng-model="slackData"></textarea><br>
+        <button ng-click="submitSlackEvent()">Submit</button>
+      </div>
+      <div style="float: right; margin-right: 200px">
+        <h2>Sample Slack Input</h2>
+        {
+          "slack_account_id": "beanware", <br>
+          "slack_app_id": 12345, <br>
+          "sender_id": "tam", <br>
+          "mention_ids": ["root"], <br>
+          "channel_id": "bland++", <br>
+          "full_text": "Meh++!!!" <br>
+        }
+      </div>
+    </div>
+    <div ng-show="slackError">
+      Please input data before submitting.
+    </div>
+
+    <h4>Enter jira ticket data</h4>
+    <p>No validation. Enter carefully!</p>
+    <div style="overflow: hidden;">
+      <div style="float: left;">
+        <textarea rows="15" cols="90" ng-model="jiraData"></textarea><br>
+        <button ng-click="submitJiraEvent()">Submit</button>
+      </div>
+      <div style="float: right; margin-right: 200px">
+        <h2>Sample Jira Input</h2>
+        {
+          "jira_account_id": "dev", <br>
+          "project_id": 2, <br>
+          "sender_id": "sim", <br>
+          "assign_ids": ["sahil", "kim"], <br>
+          "issue_id": 322, <br>
+          "title": "A Bug", <br>
+          "description": "The border on the login button does not support the active state", <br>
+          "extra_data": {"priority": "High", "release": "v1.4.1"} <br>
+        }
+      </div>
+    </div>
+
+  </div>
+  <div ng-show="jiraError">
+    Please input data before submitting.
+  </div>
+</div>
