@@ -19,12 +19,14 @@ On Linux :-
 
 6. Run db.js script in the root folder of the extracted git repository
 	mongo > applicationdb.js
-	
-7. Run the following commands from the root folder of the git repo to create user database
-	python manage.py makemigrations
+
+7. Run the following command from the root folder of the git repo to create user database
 	python manage.py migrate
 
-8. Start the django server by running the following from the root foler of the git repo
+8. Create superuser to input events in the system
+	python manage.py createsuperuser
+
+9. Start the django server by running the following from the root foler of the git repo
 	python manage.py runserver
 
-9. Server will start at http://127.0.0.1:8000/. Go to the link to access the application
+10. Server will start at http://127.0.0.1:8000/. Go to the link to access the application

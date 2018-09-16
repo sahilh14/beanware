@@ -31,7 +31,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 CLIENT = MongoClient()
-DB = CLIENT.test
+DB = CLIENT.beanware
 
 
 # Application definition
