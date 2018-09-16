@@ -18,7 +18,7 @@ On Linux :-
 	sudo systemctl status mongodb
 
 6. Run db.js script in the root folder of the extracted git repository
-	mongo > applicationdb.js
+	mongo < applicationdb.js
 
 7. Run the following command from the root folder of the git repo to create user database
 	python manage.py migrate
