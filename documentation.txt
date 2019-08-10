@@ -8,7 +8,7 @@ On the home page you will find 'Login' and 'Register' options on the top right
 side of the page. The email id you provide for Registration will be used for Login.
 Email and Username should be unique.
 
-!!!!PLEASE LOGIN AS SUPERUSER TO CREATE EVENTS IN THE SYSTEM!!!! EXAMPLE EVENTS
+!!!!PLEASE LOGIN AS SUPERUSER TO CREATE EVENTS IN THE SYSTEM!!!! SAMPLE EVENTS
 ARE PROVIDED IN THE 'slack_input_example' and 'jira_input_example' FILES.
 
 
