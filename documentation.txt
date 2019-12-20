@@ -1,8 +1,8 @@
-Welcome To BeanWare!!
+Welcome To Gira!!
 
-!!!!PLEASE GO THROUGH THE 'readme.txt' FILE FOR INITIALISATION OF BEANWARE!!!
+!!!!PLEASE GO THROUGH THE 'readme.txt' FILE FOR INITIALISATION OF Gira!!!
 
-Go to http://127.0.0.1:8000/ to access BeanWare.
+Go to http://127.0.0.1:8000/ to access Gira.
 
 On the home page you will find 'Login' and 'Register' options on the top right
 side of the page. The email id you provide for Registration will be used for Login.
