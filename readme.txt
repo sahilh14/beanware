@@ -1,3 +1,7 @@
+A bug and a issue tracker
+
+Please read on for installation instructions.
+
 On Linux :-
 
 1. Install pip
